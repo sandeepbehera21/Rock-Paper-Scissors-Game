@@ -1,0 +1,115 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background Styling */
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at top left, #1a1a2e, #16213e);
+    color: white;
+}
+
+/* Wrapper Styling */
+.wrapper {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 3em 2em;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Title Styling */
+h1 {
+    font-size: 3em;
+    text-shadow: 0 0 10px #00f3ff;
+}
+
+/* Subtitle Styling */
+h3 {
+    color: #00f3ff;
+    font-size: 2em;
+    text-shadow: 0 0 5px #00f3ff;
+}
+
+/* Choice Buttons */
+#choices {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+#choices button {
+    padding: 0.7em 1.5em;
+    border-radius: 0.5em;
+    font-size: 2.5em;
+    border: none;
+    background: linear-gradient(45deg, #ff4e50, #fc913a);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(255, 78, 80, 0.8);
+}
+
+#choices button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 78, 80, 1);
+}
+
+/* Player & Computer Choice */
+#player-choice, #computer-choice {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+/* Result Display */
+#resultDisplay {
+    font-size: 3em;
+    padding: 15px 50px;
+    margin-top: 1.5em;
+    border-radius: 10px;
+    background: rgba(0, 255, 204, 0.2);
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.8);
+    text-shadow: 0 0 10px #00f3ff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .wrapper {
+        padding: 2em;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    #choices {
+        flex-direction: column;
+    }
+    #choices button {
+        font-size: 2em;
+    }
+    #resultDisplay {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+    #choices button {
+        font-size: 1.8em;
+    }
+    #resultDisplay {
+        font-size: 2em;
+        padding: 10px 30px;
+    }
+}
