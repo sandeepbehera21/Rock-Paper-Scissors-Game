@@ -44,7 +44,7 @@ Pull requests are welcome! If you find any issues or want to add enhancements, f
 ## 📜 License
 This project is licensed under the MIT License.
 
-🔗 **Live Demo**: [Click Here](#) *(Replace with your live link if hosted)*
+🔗 **Live Demo**: [Click Here](https://sandeepbehera21.github.io/Rock-Paper-Scissors-Game/) 
 
 Happy gaming! 🎮🔥
 
