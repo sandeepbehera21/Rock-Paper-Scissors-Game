@@ -11,7 +11,6 @@
 
 ## 📸 Screenshots
 ![rps](https://github.com/user-attachments/assets/d3d889a6-1439-4d00-9d8d-06ec61ac5ced)
-(rps.png)
 
 ## 🛠️ Technologies Used
 - HTML5
