@@ -46,5 +46,5 @@ This project is licensed under the MIT License.
 
 🔗 **Live Demo**: [Click Here](https://sandeepbehera21.github.io/Rock-Paper-Scissors-Game/) 
 
-Happy gamingg! 🎮🔥
+Happy gaminggg! 🎮🔥
 
